@@ -6,11 +6,15 @@
 
 
 .list_1{
-  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   margin-top: 50px;
   margin-bottom:20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 1px 1px red;
 }
 p{
   font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width:575px){
+p{
+  font-size: 15px;
+}
 }

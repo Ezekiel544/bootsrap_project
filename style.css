@@ -33,7 +33,7 @@ nav{
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 5px;
-     border: 4px solid red;
+     border: 4px solid orange   ;
      font-weight: bold;
 }
 .book_us:hover{
@@ -166,9 +166,9 @@ border-top: 1px solid black;
 .last_button button{
    background-color: transparent;
 }
-.my_span{
+/* .my_span{
     font-size: 15px;
-}
+} */
  .dr:hover{
     background-color: black;
     color: white;
@@ -339,9 +339,9 @@ border-top: 1px solid black;
     .accordion-header button{
         font-size: 16px;
     }
-    .my_span{
+    /* .my_span{
         font-size: 12px;
-    }
+    } */
     .last_button button{
         font-size: 14px;
     }
@@ -387,6 +387,9 @@ border-top: 1px solid black;
 /* Mobile Devices - Extra Small */
 /* Extra Small Devices */
 @media(max-width:575px){
+    .first_div{
+        height: 65vh;
+    }
     .book_us{
        font-size: 15px; 
       
@@ -452,9 +455,9 @@ border-top: 1px solid black;
     .accordion-header button{
         font-size: 13px;
     }
-    .my_span{
+    /* .my_span{
         font-size: 10px;
-    }
+    } */
     .last_button button{
         font-size: 11px;
     }

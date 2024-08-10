@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bac_1{
+    background-image: url(./BB1lwvgT.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: overlay;
+    /* background-color: #4B4F58; */
+    background-color: #333336;
+}
+.Ad{
+    background-image: url(burger.jpg);
+    background-color: #694747;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
